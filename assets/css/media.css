@@ -50,15 +50,14 @@
         background-color: #fff;
         width: 100%;
         flex-direction: column;
-        opacity: 0;
+        display: none;
         text-align: center;
-        transition: 0.3s all ease;
     }
     body.dark #header .nav-bar nav ul{
     background-color: var(--dark-secondary);
     }
     #header .nav-bar nav ul.active {
-        opacity: 1;
+        display: block;
     }
     #header .nav-bar nav .humberger {
         position: relative;
