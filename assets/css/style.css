@@ -321,7 +321,7 @@ p {
     font-size: 30px;
 }
 
-#info .container .row .col:hover i {
+#info .container .row .col i:hover {
     background-color: #fff;
     color: var(--light-blue);
 }
