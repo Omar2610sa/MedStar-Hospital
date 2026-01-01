@@ -123,4 +123,37 @@
     #doctors .row .col .detail a {
         padding: 5px 10px;
     }
+    #contact .row form .form-control,
+    #about .row .context .info {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #contact .row form .form-control input,
+#contact .row form .form-control select,
+#contact .row textarea {
+    margin: 5px 0
+}
+#sign-up .row form
+{
+    grid-template-columns: repeat(1,1fr);
+    gap: 2rem;
+}
+#call a {
+    margin: 10px 0;
+}
+#services .row .col{
+    flex-direction: column;
+    text-align: center;
+}
+#services .row .col i{
+    margin: auto;
+    margin-bottom: 20px;
+}
+#price .row .col .detail p{
+display: flex;
+flex-direction: column;
+}
+#price .row .col .detail p i {
+    margin: auto;
+    padding-top: 10px;
+}
 }
